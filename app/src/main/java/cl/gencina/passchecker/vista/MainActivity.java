@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity implements CheckPassInterfac
     @Override
     public void showError() {
         binding.tvResult.setText("Error");
-        binding.tvColor.setBackgroundColor(Color.GRAY);
+        binding.tvColor.setBackgroundColor(Color.WHITE);
     }
 
 }
